@@ -1,0 +1,108 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+	background: url() no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+body {
+	
+	color: #blue;
+	font-family: 'Papyrus', cursive;
+	line-height: 175%;
+	text-align: center;
+	width: 70%%;
+	margin: 0%;
+	vertical-align: middle;
+}
+
+header {
+	font-size: 40px;
+	font-family: 'Papyrus', cursive;
+	margin: 3%;
+}
+
+audio {
+	display: none;
+}
+
+.header-container {
+	height: 25%;
+	width: 100%;
+}
+
+.main-container {
+	height: 75%;
+	width: 55%;
+	border: 2px solid #FFD700;
+	margin: 2%;
+	text-align: center;
+	margin-left: 23%;
+	padding-top: 3%;
+	margin-bottom: 5%
+}
+
+
+@media screen and (max-width: 980px) {
+
+}
+	
+
+
+@media screen and (max-width: 768px) {
+
+	.left-align {
+		width: inherit;
+	}
+
+
+	.box {
+		width: 50%;
+	}
+
+	#social-links {
+		clear: both;
+		float: left;
+		overflow: auto 0;
+		width: 96%;
+		margin: 2%;
+		margin-right: 2%
+	}
+
+	#main-bio,
+	#contact-form,
+	#project-portfolio {
+		clear: both;
+		float: left;
+		overflow: auto 0;
+		width: 96%;
+		margin: 2%;
+	}
+
+}
+
+@media screen and (max-width: 640px) {
+
+	body {
+		line-height: 120%;
+	}
+	header {
+		margin-top: 1%;
+		margin-bottom: 1%;
+	}
+
+	.header-container {
+		font-size: 20px;
+		line-height: 200%;
+		margin: 0;
+	}
+
+	#star-wars-image {
+		width: 100%;
+	}
+}
