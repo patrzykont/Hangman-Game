@@ -3,7 +3,7 @@
 }
 
 html {
-	background: url() no-repeat center center fixed; 
+	background: url(../img/f4.jpg) no-repeat center center fixed; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -102,7 +102,8 @@ audio {
 		margin: 0;
 	}
 
-	#star-wars-image {
-		width: 100%;
+	#ballImage {
+		max-height: 50px;
+		max-width: 50px;
 	}
 }
